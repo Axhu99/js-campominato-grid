@@ -1,0 +1,13 @@
+#grill{
+    width: 500px;
+    height: 500px;
+    
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.cell{
+    width: calc(100% / 10);
+    height: calc(100% / 10);
+    border: 1px solid black;
+}
