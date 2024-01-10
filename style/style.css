@@ -8,17 +8,31 @@
 /* ! container */
 
 .container{
-    width: 100%;
     max-width: 1080px;
     margin: 0 auto;
+}
+
+/* ! header */
+
+.navbar{
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 
 /* ! main */
 
+main{
+    background-color: #7FFFD4;
+    padding: 20px 0 ;
+}
+
 #grill{
-    width: 500px;
-    height: 500px;
+    width: 700px;
+    height: 700px;
+    margin: 0 auto;
     
     display: flex;
     flex-wrap: wrap;
@@ -29,8 +43,22 @@
     width: calc(100% / 10);
     height: calc(100% / 10);
     border: 1px solid black;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .cell.click{
     background-color: lightblue;
+}
+
+/* ! footer */
+
+.piedipagina{
+    height: 30px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
